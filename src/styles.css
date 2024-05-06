@@ -230,9 +230,11 @@ svg{
   padding-top: 2rem;
   row-gap: 2.5rem;
 }
+
 .home__content{
   display: grid;
   row-gap: 2rem;
+  right: 0%;
 }
 
 .home__data{
@@ -282,6 +284,11 @@ svg{
   justify-self: center;
 }
 
+.home__img{
+  width: 900px;
+  transform: translateX(-150px);
+}
+
 .home__blob{
   width: 320px;
   fill: var(--first-color);
@@ -316,12 +323,17 @@ svg{
   margin-bottom: 2rem;
 }
 
+.about__img{
+  width: 800px;
+  transform: translateX(-120px);
+}
+
 .about__image{
   justify-self: center;
 }
 
 .about__blob{
-  width: 320px;
+  size-adjust: 100%;
 }
 
 .about__blob path{
