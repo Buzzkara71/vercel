@@ -328,10 +328,6 @@ svg{
   transform: translateX(-120px);
 }
 
-.about__image{
-  justify-self: center;
-}
-
 .about__blob{
   size-adjust: 100%;
 }
